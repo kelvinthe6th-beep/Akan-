@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background: rgb(0, 0, 0);
+  color: #f9f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 5000px;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgb(18, 17, 17);
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(247, 246, 246, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #971be4;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+input[type="date"],
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ba11f3;
+  border-radius: 15px;
+}
+
+fieldset {
+  border: none;
+}
+
+button {
+  background: #9e34db;
+  color: rgb(252, 220, 12);
+  cursor: pointer;
+  transition: background 0.3s;
+  margin: 10px 100px 10px 100px;
+}
+
+button:hover {
+  background: #b9b229;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+  color: #c0a624;
+}
+
+.bithdate{
+  padding: 0px 0px 0px 2000px;
+}
